@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: talha1;
+    src: url('../src/Portfolio/Fonts/Fonts/file1.woff2');
+}
+@font-face {
+    font-family: talha2;
+    src: url('../src/Portfolio/Fonts/Fonts/file2.woff2');
+}
+@font-face {
+    font-family: talha3;
+    src: url('../src/Portfolio/Fonts/Fonts/file3.woff2');
+}
+@font-face {
+    font-family: talha4;
+    src: url('../src/Portfolio/Fonts/Fonts/file4.woff2');
+}
+@font-face {
+    font-family: talha5;
+    src: url('../src/Portfolio/Fonts/Fonts/file5.woff2');
+}
+@font-face {
+    font-family: talha6;
+    src: url('../src/Portfolio/Fonts/Fonts/file6.woff2');
+}
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
+.app{
+    min-height: 100vh;
+    background-color: white;
+    color: white;
+    height: 100vmin;
+    width: 100vmax;
+    padding: 20px;
+}
+#pageOne{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    padding: 50px;
+    font-family: talha1;
+    text-transform: uppercase;
+    background-color: black;
+    position: relative;
+    perspective: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#pageOne img{
+    position: fixed;
+    height: 100%;
+    right: 0%;
+}
+#tilttext{
+   width: fit-content;
+}
+
+#pageOne #tilttext #h3{
+    font-size: 12.6vmin;
+   
+}
+h3{
+    font-size: 6vmin;
+     line-height: 9vmin;
+}
+#skills{
+     font-family: talha2;
+     text-transform: capitalize;
+     font-size: 1vw;
+     position: relative;
+     perspective: 600px;   
+     color: gray; 
+}
+#skills #h4{
+    font-size: 1.2vw;
+}
+#skills:hover{
+    scale: 2;
+
+}
+
+#pageTwo{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100%;
+    background-color: white(21, 21, 21);
+    border-radius: 15px;
+   
+    
+   
+}
+#pageTwo h3{
+    color: gray;
+    text-align: center;
+    font-family: talha2;
+    font-size: 20px;
+
+}
+#pageTwo h1{
+    color: black;
+    font-family: talha6;
+    font-size: 50vmax;
+   text-transform: uppercase;
+   text-align: center;
+}
+#pageFour{
+   min-height: 100%;
+    width: 100%;
+}
+#pageFour #astrome img{
+  height: 100%;
+  width: 100%;
+}
+#dream{
+    font-size: 5vmin;  
+    font-family: talha2;
+}
+#dream #h6{
+    font-size: 5vmin;
+   
+}
+#footer{
+    position: relative;
+    top: 14vmin;
+    font-family: talha2;
+    color: gray;
+    font-weight: bold;
+    text-transform: none;
+    width: fit-content;
+}
+#footer:hover{
+    scale: 1.4;
+}
+#pageFive{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#pageFive h1{
+    font-family: talha6;
+    font-size: 20vmax;
+    text-transform: uppercase;
+    line-height: 17vmax;
+    letter-spacing: 1vw;
+
+
+
+}
+p{
+    font-size: 2vw;
+    font-family: talha5;
+    letter-spacing: 2px;
+
+}
+.rotateText{
+    transform-origin: 100% 100%;
+}
+#pageSeven{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 10px 0;
+    border-radius: 10px;
+  
+}
+#pageSeven video{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#pageEight{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+#pageEight video{
+ width: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+    
+}
+#pageNine{
+    height: 100%;
+    background-color: #daba;
+    margin-top: 5px;
+}
+#pageFiveSix{
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+#pageFiveSix h1{
+    color: black;
+    font-family: talha6;
+    font-size: 50vmax;
+   text-transform: uppercase;
+   text-align: center;
+}
+#pageFiveSix #impossible{
+    font-size: 40vmax;
+}
+#pageFiveSix #dreamer{
+    font-size: 46vmax;
+}
+#pageTwo .svgs{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.svgs{
+    height: 50px;
+}
+@media (max-width: 440px) {
+    #pageOne img{
+        display: none;
+    }
+    #pageSix #ems h5{
+        font-size: 25px;
+        font-family: talha2;
+    }
+}

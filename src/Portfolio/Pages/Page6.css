@@ -1,0 +1,70 @@
+#pageSix{
+    margin-top: 10px;
+    min-height: 100%;
+    width: 100%;
+   background-color: #111;
+   border-radius: 10px;
+   padding: 50px;
+   
+}
+h2{ 
+    font-size: 13vmin;
+    font-family: talha2;
+    text-align: center;
+}
+#ems h5{
+    font-size: 35px;
+    color: white;
+    font-family: serif;
+    margin: 10px 0;
+}
+#title h6{
+    color: white;
+}
+#title h6 span{
+    color: gray;
+}
+#ems h6{
+    margin: 5px 0;
+    font-size: 15px;
+    font-family: talha3;
+}
+#description p{
+    font-size: 18px;
+    text-align: justify;
+    color: gray;
+}
+#note p{
+   color: red;
+   font-size: 15px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: square;
+    font-size: 20px;
+}
+ul li{
+    margin: 5px 0;
+    font-family: talha1;
+    color: rgb(250, 250, 250);
+}
+#skillful h5{
+    font-size: 30px;
+    font-family: serif;
+    margin: 10px 0;
+}
+#big{
+    display: block;
+    padding: 10px 0;
+    font-size: 25px;
+    font-family: talha4;
+}
+/* #adminauthentication{                                                                                                                                                                                                                                        
+    width: 50%;
+   
+
+}
+#userauthentication{
+    width: 50%;
+   
+} */
