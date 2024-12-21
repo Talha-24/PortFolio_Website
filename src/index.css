@@ -173,23 +173,25 @@ p{
     transform-origin: 100% 100%;
 }
 #pageSeven{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
-    background-color: black;
     margin: 10px 0;
     border-radius: 10px;
   
 }
-#pageSeven video{
+#pageSeven img{
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    position: sticky;
+    background-size: cover;
+    background-image: url('https://static.wixstatic.com/media/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg/v1/fill/w_1278,h_983,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg');
 }
 
 #pageEight{
     height: 100%;
     width: 100%;
     margin-top: 20px;
+    color: black;
    
 }
 #pageEight video{
