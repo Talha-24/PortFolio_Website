@@ -6,7 +6,7 @@ import React from 'react'
 const Page2 = () => {
   return (
     <div id="pageTwo">
-        <h3>Mohammad Talha Fron End Developer</h3>
+        <h3>Mohammad Talha Front End Developer</h3>
         <div className='rotateText'>
             <h1>Helping</h1>
         </div>
