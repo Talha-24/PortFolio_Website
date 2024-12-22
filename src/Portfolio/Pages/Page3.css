@@ -41,8 +41,9 @@
 .projects a,span{
     margin-top: 5px;
     text-decoration:none;
-    color: rgb(23, 23, 202);
-    font-size: 15px;
+    color : white;
+    font-weight: bold;
+    font-size: 18px;
 }
 #descrip{
 margin-top: 5px;
