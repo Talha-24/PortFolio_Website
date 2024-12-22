@@ -180,30 +180,56 @@ p{
   
 }
 #pageSeven img{
-    height: 100%;
+    min-height: 150%;
     width: 100%;
     position: sticky;
-    background-size: cover;
-    background-image: url('https://static.wixstatic.com/media/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg/v1/fill/w_1278,h_983,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg');
+    background-image: url('https://static.wixstatic.com/media/f1c650_8b19a36c22b44b04aa056d2f4482aeac~mv2.jpeg/v1/fill/w_1278,h_983,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f1c650_8b19a36c22b44b04aa056d2f4482aeac~mv2.jpeg');
+    
 }
 
 #pageEight{
-    height: 100%;
+ min-height: 100%;
     width: 100%;
     margin-top: 20px;
     color: black;
+    background-image: url('https://static.wixstatic.com/media/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg/v1/fill/w_1278,h_983,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f1c650_739893a03c1f4a6991c28005e9fd8372~mv2.jpg');
+    background-size: cover;
+
+
+    
    
 }
-#pageEight video{
+#pageEight img{
+    min-height: 120%;
  width: 100%;
  object-fit: cover;
  border-radius: 10px;
     
 }
 #pageNine{
-    height: 100%;
+    min-height: 100%;
+    width: 100%;
     background-color: #daba;
     margin-top: 5px;
+    background-image: url('https://static.wixstatic.com/media/f1c650_b948dfd8fa184e88994ce92320889e94~mv2.jpg/v1/fill/w_690,h_1006,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/new%20background_fn_vertical.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: talha2;
+    justify-content: flex-start;
+    padding: 50px;
+    border-radius: 30px;
+}
+#pageNine #spans h2{
+    display: inline;
+}
+#pageNine #spans h2 span{
+    font-size: 25vmax;
+    font-family: talha6;
+   
+}
+#pageNine #transformtext p{
+    
 }
 #pageFiveSix{
     color: black;
@@ -239,6 +265,9 @@ p{
 @media (max-width: 440px) {
     #pageOne img{
         display: none;
+    }
+    #footer p{
+        font-size: 25px;
     }
     #pageSix #ems h5{
         font-size: 25px;

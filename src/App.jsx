@@ -9,6 +9,7 @@ import Page6 from './Portfolio/Pages/Page6'
 import Page8 from './Portfolio/Pages/Page8'
 import Page56 from './Portfolio/Pages/Page56'
 import Page7 from './Portfolio/Pages/Page7'
+import Page9 from './Portfolio/Pages/Page9'
 
 const App = () => {
   return (
@@ -20,9 +21,12 @@ const App = () => {
       <Page4/>
 <Page5/>
 <Page56/>
-<Page6/>
 <Page7/>
+<Page6/>
 <Page8/>
+<Page9/>
+
+
 
 
     </div>
