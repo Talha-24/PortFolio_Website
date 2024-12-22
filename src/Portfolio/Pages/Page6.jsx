@@ -13,8 +13,8 @@ const Page6 = () => {
                     <li>Admin Dashboard</li>
                 </ul>
                 <div id="description">
-                    <p> <span>At Admin Dashboard</span>  Admin can assign task to his employee.Here, he/she can see the task status and employee reply on the assigned Task and can also hear the employe request on respected task and he can even reply employ.</p>
-                    <p> <span>At Employ Dashboard</span> an Employ can Accept and even Submit that task, he can also send any query/request related to the assigned task to the Admin</p>
+                    <p> <span>At Admin Dashboard</span>  Admin can Assign tasks to his Employees.He can also receive the response of respected Employ on the Assigned Task and can reply him(Ok and Denied) .</p>
+                    <p> <span>At Employ Dashboard</span> At Employ Dashboard, Employ has Authorization of Accepting, Rejecting and Sending any request/query on assigned task by Admin, he can also even see the Admin's Reponse on the top of every task..</p>
                     <div id="note">
                         <p>For Data Storage I have used the Local Storage...</p>
                     </div>
