@@ -32,6 +32,7 @@ h2{
 #description p{
     font-size: 22px;
     text-align: justify;
+    margin: 15px 0;
    
 }
 #note p{
@@ -53,12 +54,18 @@ ul li{
     font-family: serif;
     margin: 10px 0;
 }
-#big{
+#passwords big{
+    font-size: 30px;
+    font-family: talha2;
+    margin: 20px 0;
+}
+#passwords #big{
     display: block;
     padding: 10px 0;
-    font-size: 25px;
+    font-size: 35px;
     font-family: talha4;
 }
+
 /* #adminauthentication{                                                                                                                                                                                                                                        
     width: 50%;
    
