@@ -292,4 +292,8 @@ p{
         font-size: 30px;
         font-weight: bold;
     }
+    #pageFive h1{
+        font-size: 20vmin;
+
+    }
 }

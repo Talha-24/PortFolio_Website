@@ -71,7 +71,8 @@ ul li{
     font-weight: bold;
     font-size: 22px;
     margin: 10px 0;
-    display: block
+    display: block;
+    font-family: talha5;
     
 }
 @media (max-width: 455px) {
