@@ -167,9 +167,11 @@ h3{
 }
 @media (max-width: 450px) {
     #pageFive h1{
-        font-size: 100px;
+        font-size: 124px;
     }
-
+    #pageFive p{
+        font-size: 30px;
+    }
     
 }
 p{
