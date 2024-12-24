@@ -23,6 +23,11 @@ const Page9 = () => {
                 <p>BUT OFFERING THE TRANSFORMATION!
                 </p>
             </div>
+            <div id="contactus">
+                <big> <a href="tel:+923020886640">Reach me!</a></big>
+                <p>+923497251467</p>
+                <p>+923020886640</p>
+            </div>
 
 
         </div>

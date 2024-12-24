@@ -262,6 +262,17 @@ p{
 .svgs{
     height: 50px;
 }
+#contactus big a{
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+#contactus p{
+    font-size: 20px;
+    font-weight: bold;
+}
 @media (max-width: 440px) {
     #pageOne img{
         display: none;
@@ -272,5 +283,9 @@ p{
     #pageSix #ems h5{
         font-size: 25px;
         font-family: talha2;
+    }
+    #transformtext p{
+        font-size: 22px;
+        margin: 10px 0;
     }
 }
