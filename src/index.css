@@ -165,15 +165,13 @@ h3{
 
 
 }
-/* @media (max-width: 450px) {
+@media (max-width: 450px) {
     #pageFive h1{
         font-size: 100px;
     }
-    #pageFive p{
 
-    }
     
-} */
+}
 p{
     font-size: 2vw;
     font-family: talha5;
