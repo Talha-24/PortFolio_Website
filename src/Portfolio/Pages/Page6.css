@@ -65,7 +65,13 @@ ul li{
     font-size: 35px;
     font-family: talha4;
 }
-
+@media (max-width: 455px) {
+    #ems h5{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+}
 /* #adminauthentication{                                                                                                                                                                                                                                        
     width: 50%;
    
