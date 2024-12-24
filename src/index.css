@@ -155,7 +155,7 @@ h3{
 }
 #pageFive h1{
     font-family: talha6;
-    font-size: 20vmax;
+    font-size: 30vmin;
     text-transform: uppercase;
     line-height: 17vmax;
     letter-spacing: 1vw;
@@ -164,9 +164,10 @@ h3{
 
 }
 p{
-    font-size: 2vw;
+    font-size: 4vmax;
     font-family: talha5;
     letter-spacing: 2px;
+    margin: 20px 0;
 
 }
 .rotateText{
@@ -291,10 +292,5 @@ p{
     #ems h5{
         font-size: 30px;
         font-weight: bold;
-    }
-    #pageFive h1{
-        font-size: 20vmin;
-        background-color: red;
-
     }
 }

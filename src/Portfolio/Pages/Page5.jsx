@@ -5,7 +5,7 @@ const Page5 = () => {
     <div id="pageFive">
         <div>
         <h1>PROFESSIONAL</h1>
-        <p>Web Development, Web Designing</p>
+        <p>Web Development</p>
         </div>
         <div>
         <h1>Personal</h1>
